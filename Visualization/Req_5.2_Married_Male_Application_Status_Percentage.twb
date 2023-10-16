@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Req_5.2_Married_Male_Application_Status' inline='true' name='federated.1yxme3l0x1n7wt1f3q2dl0gombnp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Req_5.2_Married_Male_Application_Status' name='textscan.0qsrfjv1ri0tqi1cxtsww1sgq2ou'>
+            <connection class='textscan' directory='D:/Perscholas/Capstone_Project/SQL_Queries_Visualization' filename='Req_5.2_Married_Male_Application_Status.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0qsrfjv1ri0tqi1cxtsww1sgq2ou' name='Req_5.2_Married_Male_Application_Status.csv' table='[Req_5.2_Married_Male_Application_Status#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Application_Status' ordinal='0' />
+            <column datatype='integer' name='count(Married)' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0qsrfjv1ri0tqi1cxtsww1sgq2ou' name='Req_5.2_Married_Male_Application_Status.csv' table='[Req_5.2_Married_Male_Application_Status#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Application_Status' ordinal='0' />
+            <column datatype='integer' name='count(Married)' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Req_5.2_Married_Male_Application_Status.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application_Status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Application_Status]</local-name>
+            <parent-name>[Req_5.2_Married_Male_Application_Status.csv]</parent-name>
+            <remote-alias>Application_Status</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Req_5.2_Married_Male_Application_Status.csv_C21B3DD895534F81801550D36C977795]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>count(Married)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count(Married)]</local-name>
+            <parent-name>[Req_5.2_Married_Male_Application_Status.csv]</parent-name>
+            <remote-alias>count(Married)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Req_5.2_Married_Male_Application_Status.csv_C21B3DD895534F81801550D36C977795]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Application Status' datatype='string' name='[Application_Status]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;N&quot;' value='%Rejected' />
+          <alias key='&quot;Y&quot;' value='Approved%' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Req_5.2_Married_Male_Application_Status.csv' datatype='table' name='[__tableau_internal_object_id__].[Req_5.2_Married_Male_Application_Status.csv_C21B3DD895534F81801550D36C977795]' role='measure' type='quantitative' />
+      <column-instance column='[Application_Status]' derivation='None' name='[none:Application_Status:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Application_Status:nk]' type='palette'>
+            <map to='#76b7b2'>
+              <bucket>&quot;Y&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;N&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Req_5.2_Married_Male_Application_Status.csv' id='Req_5.2_Married_Male_Application_Status.csv_C21B3DD895534F81801550D36C977795'>
+            <properties context=''>
+              <relation connection='textscan.0qsrfjv1ri0tqi1cxtsww1sgq2ou' name='Req_5.2_Married_Male_Application_Status.csv' table='[Req_5.2_Married_Male_Application_Status#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Application_Status' ordinal='0' />
+                  <column datatype='integer' name='count(Married)' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#0000ff'>REQ 5.2 Percentage of Rejection for Married Male Applicants</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run bold='true' fontcolor='#0055ff' fontsize='11'>Application Status (color) and % of Total count(Married) (size).</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Req_5.2_Married_Male_Application_Status' name='federated.1yxme3l0x1n7wt1f3q2dl0gombnp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1yxme3l0x1n7wt1f3q2dl0gombnp'>
+            <column caption='Application Status' datatype='string' name='[Application_Status]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;N&quot;' value='%Rejected' />
+                <alias key='&quot;Y&quot;' value='Approved%' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[count(Married)]' role='measure' type='quantitative' />
+            <column-instance column='[Application_Status]' derivation='None' name='[none:Application_Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[count(Married)]' derivation='Sum' name='[pcto:sum:count(Married):qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Table' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='560' />
+            <format attr='width' value='565' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='border-style' id='annotation_0' value='dashed' />
+            <format attr='border-color' id='annotation_0' value='#ff0000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[none:Application_Status:nk]' />
+              <wedge-size column='[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[pcto:sum:count(Married):qk]' />
+              <size column='[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[pcto:sum:count(Married):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7471270561218262' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontcolor='#ff0000'>Rejection is 28.43% for the Married Male Applicants</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields>
+                        <field>[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[none:Application_Status:nk]</field>
+                      </x-fields>
+                      <y-fields>
+                        <field>[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[pcto:sum:count(Married):qk]</field>
+                      </y-fields>
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[none:Application_Status:nk]</field>
+                      <field>[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[pcto:sum:count(Married):qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;N&quot;</value>
+                    <value>0.28431372549019607</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontcolor='#0055ff'><![CDATA[Application Status: <[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[none:Application_Status:nk]>]]></run>
+              <run>Æ&#10;</run>
+              <run bold='true' fontcolor='#0055ff'><![CDATA[For Married Applicants: <[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[pcto:sum:count(Married):qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[none:Application_Status:nk]</field>
+                      <field>[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[pcto:sum:count(Married):qk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;N&quot;</value>
+                    <value>0.28431372549019607</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-153' y='-7' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{799FA63B-EAAC-4198-AC76-CB4FB171BF8C}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[none:Application_Status:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[pcto:sum:count(Married):qk]' type='size' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1yxme3l0x1n7wt1f3q2dl0gombnp].[none:Application_Status:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E1843543-7B49-4A0D-A6FB-7FF9BDF3199A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      YII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

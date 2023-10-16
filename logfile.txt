@@ -1,0 +1,416 @@
+2023-Oct-09-20:08:49,==========ETL Job Started==========
+2023-Oct-09-20:09:17,Extract Phase is completed
+2023-Oct-09-20:09:17,Transform Phase is completed
+2023-Oct-09-20:09:17,Loading Phase is completed
+2023-Oct-09-20:09:17,==========ETL Job Ended==========
+2023-Oct-09-20:14:07,==========ETL Job Started==========
+2023-Oct-09-20:14:34,Extract Phase is completed
+2023-Oct-09-20:14:34,Transform Phase is completed
+2023-Oct-09-20:14:34,Loading Phase is completed
+2023-Oct-09-20:14:34,==========ETL Job Ended==========
+2023-Oct-10-12:39:36,==========ETL Job Started==========
+2023-Oct-10-12:40:13,Extract Phase is completed
+2023-Oct-10-12:40:13,Transform Phase is completed
+2023-Oct-10-12:40:13,Loading Phase is completed
+2023-Oct-10-12:40:13,==========ETL Job Ended==========
+2023-Oct-10-13:53:06,==========ETL Job Started==========
+2023-Oct-10-13:53:50,Extract Phase is completed
+2023-Oct-10-13:53:50,Transform Phase is completed
+2023-Oct-10-13:53:50,Loading Phase is completed
+2023-Oct-10-13:53:50,==========ETL Job Ended==========
+2023-Oct-10-14:05:31,==========ETL Job Started==========
+2023-Oct-10-14:06:27,Extract Phase is completed
+2023-Oct-10-14:06:27,Transform Phase is completed
+2023-Oct-10-14:06:27,Loading Phase is completed
+2023-Oct-10-14:06:27,==========ETL Job Ended==========
+2023-Oct-11-09:26:22,==========ETL Job Started==========
+2023-Oct-11-09:26:29,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-09:26:29,Cleaning of the branch file started
+2023-Oct-11-09:26:29,cleaning of the branch file completed
+2023-Oct-11-09:26:58,Extract Phase is completed
+2023-Oct-11-09:26:58,Transform Phase is completed
+2023-Oct-11-09:26:58,Loading Phase is completed
+2023-Oct-11-09:26:58,==========ETL Job Ended==========
+2023-Oct-11-14:12:37,==========ETL Job Started==========
+2023-Oct-11-14:12:44,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-14:12:44,Cleaning of the branch file started
+2023-Oct-11-14:12:44,cleaning of the branch file completed
+2023-Oct-11-14:13:13,Extract Phase is completed
+2023-Oct-11-14:13:13,Transform Phase is completed
+2023-Oct-11-14:13:13,Loading Phase is completed
+2023-Oct-11-14:13:13,==========ETL Job Ended==========
+2023-Oct-11-14:17:11,==========ETL Job Started==========
+2023-Oct-11-14:17:20,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-14:17:20,Cleaning of the branch file started
+2023-Oct-11-14:17:20,cleaning of the branch file completed
+2023-Oct-11-14:17:53,Extract Phase is completed
+2023-Oct-11-14:17:53,Transform Phase is completed
+2023-Oct-11-14:17:53,Loading Phase is completed
+2023-Oct-11-14:17:53,==========ETL Job Ended==========
+2023-Oct-11-14:24:58,==========ETL Job Started==========
+2023-Oct-11-14:25:04,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-14:25:04,Cleaning of the branch file started
+2023-Oct-11-14:25:05,cleaning of the branch file completed
+2023-Oct-11-14:25:31,Extract Phase is completed
+2023-Oct-11-14:25:31,Transform Phase is completed
+2023-Oct-11-14:25:31,Loading Phase is completed
+2023-Oct-11-14:25:31,==========ETL Job Ended==========
+2023-Oct-11-14:30:03,==========ETL Job Started==========
+2023-Oct-11-14:30:09,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-14:30:09,Cleaning of the branch file started
+2023-Oct-11-14:30:09,cleaning of the branch file completed
+2023-Oct-11-14:30:35,Extract Phase is completed
+2023-Oct-11-14:30:35,Transform Phase is completed
+2023-Oct-11-14:30:35,Loading Phase is completed
+2023-Oct-11-14:30:35,==========ETL Job Ended==========
+2023-Oct-11-15:26:09,==========ETL Job Started==========
+2023-Oct-11-15:26:20,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-15:26:20,Cleaning of the branch file started
+2023-Oct-11-15:26:20,cleaning of the branch file completed
+2023-Oct-11-15:26:53,Extract Phase is completed
+2023-Oct-11-15:26:53,Transform Phase is completed
+2023-Oct-11-15:26:53,Loading Phase is completed
+2023-Oct-11-15:26:53,==========ETL Job Ended==========
+2023-Oct-11-15:34:46,==========ETL Job Started==========
+2023-Oct-11-15:34:53,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-15:34:53,Cleaning of the branch file started
+2023-Oct-11-15:34:53,cleaning of the branch file completed
+2023-Oct-11-15:35:20,Extract Phase is completed
+2023-Oct-11-15:35:20,Transform Phase is completed
+2023-Oct-11-15:35:20,Loading Phase is completed
+2023-Oct-11-15:35:20,==========ETL Job Ended==========
+2023-Oct-11-15:39:39,==========ETL Job Started==========
+2023-Oct-11-15:39:47,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-15:39:47,Cleaning of the branch file started
+2023-Oct-11-15:39:47,cleaning of the branch file completed
+2023-Oct-11-15:40:15,Extract Phase is completed
+2023-Oct-11-15:40:15,Transform Phase is completed
+2023-Oct-11-15:40:15,Loading Phase is completed
+2023-Oct-11-15:40:15,==========ETL Job Ended==========
+2023-Oct-11-15:49:37,==========ETL Job Started==========
+2023-Oct-11-15:49:44,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-15:49:44,Cleaning of the branch file started
+2023-Oct-11-15:49:44,cleaning of the branch file completed
+2023-Oct-11-15:50:10,Extract Phase is completed
+2023-Oct-11-15:50:10,Transform Phase is completed
+2023-Oct-11-15:50:10,Loading Phase is completed
+2023-Oct-11-15:50:10,==========ETL Job Ended==========
+2023-Oct-11-16:02:17,==========ETL Job Started==========
+2023-Oct-11-16:02:26,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-16:02:26,Cleaning of the branch file started
+2023-Oct-11-16:02:26,cleaning of the branch file completed
+2023-Oct-11-16:02:52,Extract Phase is completed
+2023-Oct-11-16:02:53,Transform Phase is completed
+2023-Oct-11-16:02:53,Loading Phase is completed
+2023-Oct-11-16:02:53,==========ETL Job Ended==========
+2023-Oct-11-16:17:59,==========ETL Job Started==========
+2023-Oct-11-16:18:07,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-16:18:07,Cleaning of the branch file started
+2023-Oct-11-16:18:07,cleaning of the branch file completed
+2023-Oct-11-16:18:33,Extract Phase is completed
+2023-Oct-11-16:18:33,Transform Phase is completed
+2023-Oct-11-16:18:33,Loading Phase is completed
+2023-Oct-11-16:18:33,==========ETL Job Ended==========
+2023-Oct-11-16:46:06,==========ETL Job Started==========
+2023-Oct-11-16:48:06,==========ETL Job Started==========
+2023-Oct-11-16:48:15,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-16:48:15,Cleaning of the branch file started
+2023-Oct-11-16:48:15,cleaning of the branch file completed
+2023-Oct-11-16:48:46,Extract Phase is completed
+2023-Oct-11-16:48:46,Transform Phase is completed
+2023-Oct-11-16:48:46,Loading Phase is completed
+2023-Oct-11-16:48:46,==========ETL Job Ended==========
+2023-Oct-11-17:07:38,==========ETL Job Started==========
+2023-Oct-11-17:07:49,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-17:07:49,Cleaning of the branch file started
+2023-Oct-11-17:07:50,cleaning of the branch file completed
+2023-Oct-11-17:07:53,Extracted the cdw_sapp_credit.json file 
+2023-Oct-11-17:07:53,Cleaning of credit card file started 
+2023-Oct-11-17:07:54,Cleaning of credit card file completed 
+2023-Oct-11-17:07:55,Extracted the cdw_sapp_custmer file 
+2023-Oct-11-17:07:55,Cleaning of customer info file started 
+2023-Oct-11-17:07:56,Cleaning of customer info file completed 
+2023-Oct-11-17:07:57,Extracted the loan data file 
+2023-Oct-11-17:08:01,Loading of customer branch table started
+2023-Oct-11-17:08:05,Loading of customer branch table completed
+2023-Oct-11-17:08:05,Loading of credit card table started
+2023-Oct-11-17:08:16,Loading of credit card table completed
+2023-Oct-11-17:08:16,Loading of customer info table started
+2023-Oct-11-17:08:17,Loading of customer info table completed
+2023-Oct-11-17:08:28,Extract Phase is completed
+2023-Oct-11-17:08:28,Transform Phase is completed
+2023-Oct-11-17:08:28,Loading Phase is completed
+2023-Oct-11-17:08:28,==========ETL Job Ended==========
+2023-Oct-11-17:12:17,==========ETL Job Started==========
+2023-Oct-11-17:12:29,Extracted the cdw_sapp_branch.json file 
+2023-Oct-11-17:12:29,Cleaning of the branch file started
+2023-Oct-11-17:12:29,cleaning of the branch file completed
+2023-Oct-11-17:12:32,Extracted the cdw_sapp_credit.json file 
+2023-Oct-11-17:12:32,Cleaning of credit card file started 
+2023-Oct-11-17:12:33,Cleaning of credit card file completed 
+2023-Oct-11-17:12:33,Extracted the cdw_sapp_custmer file 
+2023-Oct-11-17:12:33,Cleaning of customer info file started 
+2023-Oct-11-17:12:34,Cleaning of customer info file completed 
+2023-Oct-11-17:12:35,Extracted the loan data file 
+2023-Oct-11-17:12:37,Loading of customer branch table started
+2023-Oct-11-17:12:41,Loading of customer branch table completed
+2023-Oct-11-17:12:41,Loading of credit card table started
+2023-Oct-11-17:12:54,Loading of credit card table completed
+2023-Oct-11-17:12:54,Loading of customer info table started
+2023-Oct-11-17:12:56,Loading of customer info table completed
+2023-Oct-11-17:13:08,Extract Phase is completed
+2023-Oct-11-17:13:08,Transform Phase is completed
+2023-Oct-11-17:13:08,Loading Phase is completed
+2023-Oct-11-17:13:08,==========ETL Job Ended==========
+2023-Oct-12-03:46:10,==========ETL Job Started==========
+2023-Oct-12-03:46:16,Extracted the cdw_sapp_branch.json file 
+2023-Oct-12-03:46:16,Cleaning of the branch file started
+2023-Oct-12-03:46:17,cleaning of the branch file completed
+2023-Oct-12-03:46:18,Extracted the cdw_sapp_credit.json file 
+2023-Oct-12-03:46:18,Cleaning of credit card file started 
+2023-Oct-12-03:46:19,Cleaning of credit card file completed 
+2023-Oct-12-03:46:19,Extracted the cdw_sapp_custmer file 
+2023-Oct-12-03:46:19,Cleaning of customer info file started 
+2023-Oct-12-03:46:20,Cleaning of customer info file completed 
+2023-Oct-12-03:46:20,Extracted the loan data file 
+2023-Oct-12-03:46:22,Loading of customer branch table started
+2023-Oct-12-03:46:25,Loading of customer branch table completed
+2023-Oct-12-03:46:25,Loading of credit card table started
+2023-Oct-12-03:46:34,Loading of credit card table completed
+2023-Oct-12-03:46:34,Loading of customer info table started
+2023-Oct-12-03:46:35,Loading of customer info table completed
+2023-Oct-12-03:46:43,Extract Phase is completed
+2023-Oct-12-03:46:43,Transform Phase is completed
+2023-Oct-12-03:46:43,Loading Phase is completed
+2023-Oct-12-03:46:43,==========ETL Job Ended==========
+2023-Oct-12-04:09:21,==========ETL Job Started==========
+2023-Oct-12-04:09:30,Extracted the cdw_sapp_branch.json file 
+2023-Oct-12-04:09:30,Cleaning of the branch file started
+2023-Oct-12-04:09:30,cleaning of the branch file completed
+2023-Oct-12-04:09:32,Extracted the cdw_sapp_credit.json file 
+2023-Oct-12-04:09:32,Cleaning of credit card file started 
+2023-Oct-12-04:09:32,Cleaning of credit card file completed 
+2023-Oct-12-04:09:33,Extracted the cdw_sapp_custmer file 
+2023-Oct-12-04:09:33,Cleaning of customer info file started 
+2023-Oct-12-04:09:33,Cleaning of customer info file completed 
+2023-Oct-12-04:09:34,Extracted the loan data file 
+2023-Oct-12-04:09:35,Loading of customer branch table started
+2023-Oct-12-04:09:38,Loading of customer branch table completed
+2023-Oct-12-04:09:38,Loading of credit card table started
+2023-Oct-12-04:09:48,Loading of credit card table completed
+2023-Oct-12-04:09:48,Loading of customer info table started
+2023-Oct-12-04:09:49,Loading of customer info table completed
+2023-Oct-12-04:09:57,Extract Phase is completed
+2023-Oct-12-04:09:57,Transform Phase is completed
+2023-Oct-12-04:09:57,Loading Phase is completed
+2023-Oct-12-04:09:57,==========ETL Job Ended==========
+2023-Oct-12-15:37:27,==========ETL Job Started==========
+2023-Oct-12-15:37:36,Extracted the cdw_sapp_branch.json file 
+2023-Oct-12-15:37:36,Cleaning of the branch file started
+2023-Oct-12-15:37:36,cleaning of the branch file completed
+2023-Oct-12-15:37:39,Extracted the cdw_sapp_credit.json file 
+2023-Oct-12-15:37:39,Cleaning of credit card file started 
+2023-Oct-12-15:37:39,Cleaning of credit card file completed 
+2023-Oct-12-15:37:40,Extracted the cdw_sapp_custmer file 
+2023-Oct-12-15:37:40,Cleaning of customer info file started 
+2023-Oct-12-15:37:40,Cleaning of customer info file completed 
+2023-Oct-12-15:37:41,Extracted the loan data file 
+2023-Oct-12-15:37:44,Loading of customer branch table started
+2023-Oct-12-15:37:50,Loading of customer branch table completed
+2023-Oct-12-15:37:50,Loading of credit card table started
+2023-Oct-12-15:38:02,Loading of credit card table completed
+2023-Oct-12-15:38:02,Loading of customer info table started
+2023-Oct-12-15:38:04,Loading of customer info table completed
+2023-Oct-12-15:38:13,Extract Phase is completed
+2023-Oct-12-15:38:13,Transform Phase is completed
+2023-Oct-12-15:38:13,Loading Phase is completed
+2023-Oct-12-15:38:13,==========ETL Job Ended==========
+2023-Oct-13-12:54:06,==========ETL Job Started==========
+2023-Oct-13-12:54:17,Extracted the cdw_sapp_branch.json file 
+2023-Oct-13-12:54:17,Cleaning of the branch file started
+2023-Oct-13-12:54:17,cleaning of the branch file completed
+2023-Oct-13-12:54:20,Extracted the cdw_sapp_credit.json file 
+2023-Oct-13-12:54:20,Cleaning of credit card file started 
+2023-Oct-13-12:54:21,Cleaning of credit card file completed 
+2023-Oct-13-12:54:22,Extracted the cdw_sapp_custmer file 
+2023-Oct-13-12:54:22,Cleaning of customer info file started 
+2023-Oct-13-12:54:23,Cleaning of customer info file completed 
+2023-Oct-13-12:54:24,Extracted the loan data file 
+2023-Oct-13-12:54:27,Loading of customer branch table started
+2023-Oct-13-12:54:36,Loading of customer branch table completed
+2023-Oct-13-12:54:36,Loading of credit card table started
+2023-Oct-13-12:54:56,Loading of credit card table completed
+2023-Oct-13-12:54:56,Loading of customer info table started
+2023-Oct-13-12:54:59,Loading of customer info table completed
+2023-Oct-13-12:55:14,Extract Phase is completed
+2023-Oct-13-12:55:14,Transform Phase is completed
+2023-Oct-13-12:55:14,Loading Phase is completed
+2023-Oct-13-12:55:14,==========ETL Job Ended==========
+2023-Oct-15-17:01:26,==========ETL Job Started==========
+2023-Oct-15-17:01:33,Extracted the cdw_sapp_branch.json file 
+2023-Oct-15-17:01:33,Cleaning of the branch file started
+2023-Oct-15-17:01:34,cleaning of the branch file completed
+2023-Oct-15-17:01:35,Extracted the cdw_sapp_credit.json file 
+2023-Oct-15-17:01:35,Cleaning of credit card file started 
+2023-Oct-15-17:01:36,Cleaning of credit card file completed 
+2023-Oct-15-17:01:36,Extracted the cdw_sapp_custmer file 
+2023-Oct-15-17:01:36,Cleaning of customer info file started 
+2023-Oct-15-17:01:37,Cleaning of customer info file completed 
+2023-Oct-15-17:01:37,Extracted the loan data file 
+2023-Oct-15-17:01:39,Loading of customer branch table started
+2023-Oct-15-17:01:44,Loading of customer branch table completed
+2023-Oct-15-17:01:44,Loading of credit card table started
+2023-Oct-15-17:01:52,Loading of credit card table completed
+2023-Oct-15-17:01:52,Loading of customer info table started
+2023-Oct-15-17:01:54,Loading of customer info table completed
+2023-Oct-15-17:02:02,Extract Phase is completed
+2023-Oct-15-17:02:02,Transform Phase is completed
+2023-Oct-15-17:02:02,Loading Phase is completed
+2023-Oct-15-17:02:02,==========ETL Job Ended==========
+2023-Oct-15-19:22:38,==========ETL Job Started==========
+2023-Oct-15-19:22:46,Extracted the cdw_sapp_branch.json file 
+2023-Oct-15-19:22:47,Cleaning of the branch file started
+2023-Oct-15-19:22:47,cleaning of the branch file completed
+2023-Oct-15-19:22:49,Extracted the cdw_sapp_credit.json file 
+2023-Oct-15-19:22:49,Cleaning of credit card file started 
+2023-Oct-15-19:22:49,Cleaning of credit card file completed 
+2023-Oct-15-19:22:50,Extracted the cdw_sapp_custmer file 
+2023-Oct-15-19:22:50,Cleaning of customer info file started 
+2023-Oct-15-19:22:50,Cleaning of customer info file completed 
+2023-Oct-15-19:22:51,Extracted the loan data file 
+2023-Oct-15-19:22:52,Loading of customer branch table started
+2023-Oct-15-19:22:55,Loading of customer branch table completed
+2023-Oct-15-19:22:55,Loading of credit card table started
+2023-Oct-15-19:23:03,Loading of credit card table completed
+2023-Oct-15-19:23:03,Loading of customer info table started
+2023-Oct-15-19:23:04,Loading of customer info table completed
+2023-Oct-15-19:23:11,Extract Phase is completed
+2023-Oct-15-19:23:11,Transform Phase is completed
+2023-Oct-15-19:23:11,Loading Phase is completed
+2023-Oct-15-19:23:11,==========ETL Job Ended==========
+2023-Oct-16-10:24:38,==========ETL Job Started==========
+2023-Oct-16-10:24:45,Extracted the cdw_sapp_branch.json file 
+2023-Oct-16-10:24:45,Cleaning of the branch file started
+2023-Oct-16-10:24:45,cleaning of the branch file completed
+2023-Oct-16-10:24:48,Extracted the cdw_sapp_credit.json file 
+2023-Oct-16-10:24:48,Cleaning of credit card file started 
+2023-Oct-16-10:24:48,Cleaning of credit card file completed 
+2023-Oct-16-10:24:48,Extracted the cdw_sapp_custmer file 
+2023-Oct-16-10:24:48,Cleaning of customer info file started 
+2023-Oct-16-10:24:49,Cleaning of customer info file completed 
+2023-Oct-16-10:24:50,Extracted the loan data file 
+2023-Oct-16-10:24:52,Loading of customer branch table started
+2023-Oct-16-10:24:56,Loading of customer branch table completed
+2023-Oct-16-10:24:56,Loading of credit card table started
+2023-Oct-16-10:25:08,Loading of credit card table completed
+2023-Oct-16-10:25:08,Loading of customer info table started
+2023-Oct-16-10:25:09,Loading of customer info table completed
+2023-Oct-16-10:25:18,Extract Phase is completed
+2023-Oct-16-10:25:18,Transform Phase is completed
+2023-Oct-16-10:25:18,Loading Phase is completed
+2023-Oct-16-10:25:18,==========ETL Job Ended==========
+2023-Oct-16-11:45:22,==========ETL Job Started==========
+2023-Oct-16-11:45:30,Extracted the cdw_sapp_branch.json file 
+2023-Oct-16-11:45:30,Cleaning of the branch file started
+2023-Oct-16-11:45:30,cleaning of the branch file completed
+2023-Oct-16-11:45:32,Extracted the cdw_sapp_credit.json file 
+2023-Oct-16-11:45:32,Cleaning of credit card file started 
+2023-Oct-16-11:45:32,Cleaning of credit card file completed 
+2023-Oct-16-11:45:33,Extracted the cdw_sapp_custmer file 
+2023-Oct-16-11:45:33,Cleaning of customer info file started 
+2023-Oct-16-11:45:33,Cleaning of customer info file completed 
+2023-Oct-16-11:45:34,Extracted the loan data file 
+2023-Oct-16-11:45:36,Loading of customer branch table started
+2023-Oct-16-11:45:40,Loading of customer branch table completed
+2023-Oct-16-11:45:40,Loading of credit card table started
+2023-Oct-16-11:45:50,Loading of credit card table completed
+2023-Oct-16-11:45:50,Loading of customer info table started
+2023-Oct-16-11:45:52,Loading of customer info table completed
+2023-Oct-16-11:46:00,Extract Phase is completed
+2023-Oct-16-11:46:00,Transform Phase is completed
+2023-Oct-16-11:46:00,Loading Phase is completed
+2023-Oct-16-11:46:00,==========ETL Job Ended==========
+2023-Oct-16-13:40:47,==========ETL Job Started==========
+2023-Oct-16-13:40:58,Extracted the cdw_sapp_branch.json file 
+2023-Oct-16-13:40:58,Cleaning of the branch file started
+2023-Oct-16-13:40:58,cleaning of the branch file completed
+2023-Oct-16-13:41:00,Extracted the cdw_sapp_credit.json file 
+2023-Oct-16-13:41:00,Cleaning of credit card file started 
+2023-Oct-16-13:41:00,Cleaning of credit card file completed 
+2023-Oct-16-13:41:01,Extracted the cdw_sapp_custmer file 
+2023-Oct-16-13:41:01,Cleaning of customer info file started 
+2023-Oct-16-13:41:01,Cleaning of customer info file completed 
+2023-Oct-16-13:41:02,Extracted the loan data file 
+2023-Oct-16-13:41:04,Loading of customer branch table started
+2023-Oct-16-13:41:09,Loading of customer branch table completed
+2023-Oct-16-13:41:09,Loading of credit card table started
+2023-Oct-16-13:41:20,Loading of credit card table completed
+2023-Oct-16-13:41:20,Loading of customer info table started
+2023-Oct-16-13:41:22,Loading of customer info table completed
+2023-Oct-16-13:41:32,Extract Phase is completed
+2023-Oct-16-13:41:32,Transform Phase is completed
+2023-Oct-16-13:41:32,Loading Phase is completed
+2023-Oct-16-13:41:32,==========ETL Job Ended==========
+2023-Oct-16-13:47:47,==========ETL Job Started==========
+2023-Oct-16-13:47:54,Extracted the cdw_sapp_branch.json file 
+2023-Oct-16-13:47:54,Cleaning of the branch file started
+2023-Oct-16-13:47:54,cleaning of the branch file completed
+2023-Oct-16-13:47:56,Extracted the cdw_sapp_credit.json file 
+2023-Oct-16-13:47:56,Cleaning of credit card file started 
+2023-Oct-16-13:47:56,Cleaning of credit card file completed 
+2023-Oct-16-13:47:57,Extracted the cdw_sapp_custmer file 
+2023-Oct-16-13:47:57,Cleaning of customer info file started 
+2023-Oct-16-13:47:58,Cleaning of customer info file completed 
+2023-Oct-16-13:47:58,Extracted the loan data file 
+2023-Oct-16-13:48:00,Loading of customer branch table started
+2023-Oct-16-13:48:02,Loading of customer branch table completed
+2023-Oct-16-13:48:02,Loading of credit card table started
+2023-Oct-16-13:48:12,Loading of credit card table completed
+2023-Oct-16-13:48:12,Loading of customer info table started
+2023-Oct-16-13:48:14,Loading of customer info table completed
+2023-Oct-16-13:48:23,Extract Phase is completed
+2023-Oct-16-13:48:23,Transform Phase is completed
+2023-Oct-16-13:48:23,Loading Phase is completed
+2023-Oct-16-13:48:23,==========ETL Job Ended==========
+2023-Oct-16-14:08:13,==========ETL Job Started==========
+2023-Oct-16-14:08:20,Extracted the cdw_sapp_branch.json file 
+2023-Oct-16-14:08:20,Cleaning of the branch file started
+2023-Oct-16-14:08:20,cleaning of the branch file completed
+2023-Oct-16-14:08:22,Extracted the cdw_sapp_credit.json file 
+2023-Oct-16-14:08:22,Cleaning of credit card file started 
+2023-Oct-16-14:08:22,Cleaning of credit card file completed 
+2023-Oct-16-14:08:22,Extracted the cdw_sapp_custmer file 
+2023-Oct-16-14:08:22,Cleaning of customer info file started 
+2023-Oct-16-14:08:23,Cleaning of customer info file completed 
+2023-Oct-16-14:08:24,Extracted the loan data file 
+2023-Oct-16-14:08:25,Loading of customer branch table started
+2023-Oct-16-14:08:29,Loading of customer branch table completed
+2023-Oct-16-14:08:29,Loading of credit card table started
+2023-Oct-16-14:08:38,Loading of credit card table completed
+2023-Oct-16-14:08:38,Loading of customer info table started
+2023-Oct-16-14:08:40,Loading of customer info table completed
+2023-Oct-16-14:08:49,Extract Phase is completed
+2023-Oct-16-14:08:49,Transform Phase is completed
+2023-Oct-16-14:08:49,Loading Phase is completed
+2023-Oct-16-14:08:49,==========ETL Job Ended==========
+2023-Oct-16-16:38:26,==========ETL Job Started==========
+2023-Oct-16-16:38:40,Extracted the cdw_sapp_branch.json file 
+2023-Oct-16-16:38:40,Cleaning of the branch file started
+2023-Oct-16-16:38:41,cleaning of the branch file completed
+2023-Oct-16-16:38:47,Extracted the cdw_sapp_credit.json file 
+2023-Oct-16-16:38:47,Cleaning of credit card file started 
+2023-Oct-16-16:38:47,Cleaning of credit card file completed 
+2023-Oct-16-16:38:48,Extracted the cdw_sapp_custmer file 
+2023-Oct-16-16:38:48,Cleaning of customer info file started 
+2023-Oct-16-16:38:49,Cleaning of customer info file completed 
+2023-Oct-16-16:38:49,Extracted the loan data file 
+2023-Oct-16-16:38:52,Loading of customer branch table started
+2023-Oct-16-16:38:58,Loading of customer branch table completed
+2023-Oct-16-16:38:58,Loading of credit card table started
+2023-Oct-16-16:39:12,Loading of credit card table completed
+2023-Oct-16-16:39:12,Loading of customer info table started
+2023-Oct-16-16:39:16,Loading of customer info table completed
+2023-Oct-16-16:39:30,Extract Phase is completed
+2023-Oct-16-16:39:30,Transform Phase is completed
+2023-Oct-16-16:39:30,Loading Phase is completed
+2023-Oct-16-16:39:30,==========ETL Job Ended==========

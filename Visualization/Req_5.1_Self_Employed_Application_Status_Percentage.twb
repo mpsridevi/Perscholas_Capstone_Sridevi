@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0909.1159                               -->
+<workbook original-version='18.1' source-build='2023.2.2 (20232.23.0909.1159)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Req_5.1_Self_Employed_Application_Status' inline='true' name='federated.0e3vppm094fhjm19xpwvb1p0keez' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Req_5.1_Self_Employed_Application_Status' name='textscan.15quchq0ocbp6n14fxskw0ui31ah'>
+            <connection class='textscan' directory='D:/Perscholas/Capstone_Project/SQL_Queries_Visualization' filename='Req_5.1_Self_Employed_Application_Status.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.15quchq0ocbp6n14fxskw0ui31ah' name='Req_5.1_Self_Employed_Application_Status.csv' table='[Req_5.1_Self_Employed_Application_Status#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Application_status' ordinal='0' />
+            <column datatype='integer' name='count(self_employed)' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.15quchq0ocbp6n14fxskw0ui31ah' name='Req_5.1_Self_Employed_Application_Status.csv' table='[Req_5.1_Self_Employed_Application_Status#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Application_status' ordinal='0' />
+            <column datatype='integer' name='count(self_employed)' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Req_5.1_Self_Employed_Application_Status.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Application_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Application_status]</local-name>
+            <parent-name>[Req_5.1_Self_Employed_Application_Status.csv]</parent-name>
+            <remote-alias>Application_status</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Req_5.1_Self_Employed_Application_Status.csv_4D2C70ADD1994A47B9F87F42B10883B8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>count(self_employed)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count(self_employed)]</local-name>
+            <parent-name>[Req_5.1_Self_Employed_Application_Status.csv]</parent-name>
+            <remote-alias>count(self_employed)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Req_5.1_Self_Employed_Application_Status.csv_4D2C70ADD1994A47B9F87F42B10883B8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Application status' datatype='string' name='[Application_status]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;N&quot;' value='Rejected' />
+          <alias key='&quot;Y&quot;' value='Approved' />
+        </aliases>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Req_5.1_Self_Employed_Application_Status.csv' datatype='table' name='[__tableau_internal_object_id__].[Req_5.1_Self_Employed_Application_Status.csv_4D2C70ADD1994A47B9F87F42B10883B8]' role='measure' type='quantitative' />
+      <column caption='Count(Self Employed)' datatype='integer' name='[count(self_employed)]' role='measure' type='quantitative' />
+      <column-instance column='[Application_status]' derivation='None' name='[none:Application_status:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Application_status:nk]' type='palette'>
+            <map to='#76b7b2'>
+              <bucket>&quot;Y&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;N&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Req_5.1_Self_Employed_Application_Status.csv' id='Req_5.1_Self_Employed_Application_Status.csv_4D2C70ADD1994A47B9F87F42B10883B8'>
+            <properties context=''>
+              <relation connection='textscan.15quchq0ocbp6n14fxskw0ui31ah' name='Req_5.1_Self_Employed_Application_Status.csv' table='[Req_5.1_Self_Employed_Application_Status#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Application_status' ordinal='0' />
+                  <column datatype='integer' name='count(self_employed)' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#0055ff' fontname='Calibri'>REQ 5.1 Percentage of applications approved for self-employed applicants.</run>
+          </formatted-text>
+        </title>
+        <caption>
+          <formatted-text>
+            <run bold='true' fontcolor='#0055ff' fontsize='12'>Application status (color) and % of Total Count(Self Employed) (size).</run>
+          </formatted-text>
+        </caption>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Req_5.1_Self_Employed_Application_Status' name='federated.0e3vppm094fhjm19xpwvb1p0keez' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0e3vppm094fhjm19xpwvb1p0keez'>
+            <column caption='Application status' datatype='string' name='[Application_status]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;N&quot;' value='Rejected' />
+                <alias key='&quot;Y&quot;' value='Approved' />
+              </aliases>
+            </column>
+            <column caption='Count(Self Employed)' datatype='integer' name='[count(self_employed)]' role='measure' type='quantitative' />
+            <column-instance column='[Application_status]' derivation='None' name='[none:Application_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[count(self_employed)]' derivation='Sum' name='[pcto:sum:count(self_employed):qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='699' />
+            <format attr='height' value='482' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0e3vppm094fhjm19xpwvb1p0keez].[none:Application_status:nk]' />
+              <wedge-size column='[federated.0e3vppm094fhjm19xpwvb1p0keez].[pcto:sum:count(self_employed):qk:2]' />
+              <size column='[federated.0e3vppm094fhjm19xpwvb1p0keez].[pcto:sum:count(self_employed):qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.9010497331619263' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <annotations>
+          <annotation class='point' id='4' mark-position='1' pullback='12' text-width='180'>
+            <formatted-text>
+              <run bold='true' fontalignment='0' fontcolor='#ff0000'><![CDATA[Application status: <[federated.0e3vppm094fhjm19xpwvb1p0keez].[none:Application_status:nk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run bold='true' fontalignment='0' fontcolor='#ff0000'>For Self Employed Applicants:</run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run bold='true' fontalignment='0' fontcolor='#ff0000'><![CDATA[ <[federated.0e3vppm094fhjm19xpwvb1p0keez].[pcto:sum:count(self_employed):qk:2]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.0e3vppm094fhjm19xpwvb1p0keez].[none:Application_status:nk]</field>
+                      <field>[federated.0e3vppm094fhjm19xpwvb1p0keez].[pcto:sum:count(self_employed):qk:2]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>&quot;Y&quot;</value>
+                    <value>0.65714285714285714</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-19' y='-200' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{73EC63AB-C297-4274-87D6-F18392410D26}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0e3vppm094fhjm19xpwvb1p0keez].[none:Application_status:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0e3vppm094fhjm19xpwvb1p0keez].[pcto:sum:count(self_employed):qk:2]' type='size' />
+            <card param='[federated.0e3vppm094fhjm19xpwvb1p0keez].[none:Application_status:nk]' type='highlighter' />
+          </strip>
+        </edge>
+        <edge name='bottom'>
+          <strip size='92'>
+            <card type='caption' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0e3vppm094fhjm19xpwvb1p0keez].[none:Application_status:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EF898734-7EC1-4039-BC7F-4384D4B71EA2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAPXklEQVR4nO3dW2wcVZ4G8K+q7+3u2LHj2A62c3HumYRkdlglJFpY7SJWKx7RvkSISIg3
+      EAIJKS9EPPHGE0hISGiIdlmCCLubZfBsFtiBCZCLE+MkdnxLfL9fu933rq6qeeg428nEiS/d
+      fbrqfD+JB6Lu9j+V+v7nnPLpKsU0TRNEklJFF0AkEgNAUmMASGoMAEmNASCpMQAkNQaApMYA
+      kNQYAJKaU3QBRIsMw4CWSCMRimFhch7x+Ri0ZBrm3T/PpDPZ/5Jp6JoOLZmGlkxDT2cw1OjF
+      2BY/vE4XfC4n3A4nPA4HnA4HfE4X3M7s/3udLpS53aguC2BDWRkDQMWnJdOIzUYQn48iOhNG
+      dDaCyGQIiXAMqWhy1Z9rmCbiWhpxLb3s9zAAVFCGYSAyFcb80DSmescQGp1BIhwXXdY9DADl
+      1b0TfngaUz2ld8I/iAGgNbHaCf8gBoBWJRlJoP9SFya6RrAwMS+6nFVjAGjZUrEkJrtGMHK9
+      HzP9EzAN63+VhAGgR0rHU5jpm8BwWx+me8egZ3TRJeUVA0B/xTQMzA3PYKx9EMNtfdDiKdEl
+      FQwDQPeYhoHZgSl0/+kGZvomRJdTFAwAwTQMTN0ex+0LHdKc+IsYAImlEylMdo3g9k8dWJgI
+      iS5HCAZAQqlYEsOtd9B/uRvx+ajocoRiACSSiiXRf6kb/Ze6kLbxwnYlGAAJmIaB2cFpdPzx
+      KkKjs6LLKSkMgM0lwjHc+O/LmOgaEV1KSWIAbCodT6H/Uhf6LnK68ygMgM2YhonZwSnc+Poy
+      IpNyXtlZCQbARhKhGNrOXcJUz6joUiyDAbAB0zAxeO02Or9tRTrG6c5KMAAWl46n0P7Hqxhu
+      vSO6FEtiACxsbnga1//zIhY41181BsCCTMPE4NVe3Dp/DVpSE12OpTEAFpNciOPG15cxfmtY
+      dCm2wABYxOLlzevnLiE6HRZdjm0wABZg6Abu/HQLnd+1wTQM0eXYCgNQ4nQtgxtfX8HQtdui
+      S7ElBqCEpaIJ3PxDC0ZvDoguxbYYgBKVWIjjyr/9ibs3C4wBKEGJUAyX/vX/LH2/HatgAErM
+      3NA0Wj7/EckF69xdzcoYgBJhGiZmBiZx9cyfkY6t/g7JtDIMQAkwDROjNwfQ/k0LT/4iYwAE
+      W9zWcOMPV2DqvMZfbHxEkkCmYWKsYxDtzVd58gvCAAg0NzyNm19fga5lRJciLQZAkNDYLFr+
+      /QekOOcXigEQIB6KoeXzH9f0PCzKDwagyJILcVz9/EfE5+S+I1upYACKKBVNoOXMnzE/MiO6
+      FLqLASiSTDqDjvOtmBucEl0K5WAAisDI6Lh1vpVfXC9BDECBmYaJodY76L/UJboUeggGoMDC
+      43O49b+tosugJTAABZSMJPDrf/wCLZEWXQotgQEoECOjo+v7Nu7pL3EMQAEs7u4cbOkVXQo9
+      BgNQAAuT8+j4n2uiy6BlYADyLBVNou2/LnKbg0UwAHlk6Dp6friB0Ai/yG4VDECemKaJ0RsD
+      6LvI6/1WwgDkSTIcR+e3baLLoBWyxVciTdPEzz//jObmZiiKgsrKSrz55ptQFAXnz5/HRx99
+      hC+//BJutxsAMDk5iQ8//BAAoGkaTp48iebmZrS3tyMWi+H1119HNBrF6dOnsXXrVrz22mv4
+      5ptv0NTUhL179/7VzzcMA70/dSARjhX1701rZ4sAKIqCY8eO4dixY8hkMnj//feRSqUQiUTQ
+      0dGBp59++r7Xl5eX49SpU3A6nTh37hyuX7+OcDiM9957D6Ojo/jiiy9QXV2NU6dO4ezZs+ju
+      7kYikXjoyQ8A88MzvHWhRdlmCqRpGj7++GO8/fbbOHLkCFwuF7766iscP34ciqLc91qv1wun
+      04kLFy5gYGAABw8exOTkJKLRKNLpNMLhMPx+P4aGhhCNRtHW1oaenh6cPHkSLS0t931WJq2h
+      83wr9DS/1mhFthgBAMDlcuHVV19Ff38/Pv30U2iahu+//x7j4+O4ePEiqqqq8MorrwAAdF3H
+      mTNn4PF48MYbbwAATpw4gQ8++ACBQAA+nw/PP/88Tp8+jdraWlRUVKChoQEvvPACmpub8dRT
+      TwHITr3Gbw1jllucLcsWI4BpmmhtbUUoFEJNTQ10XcehQ4dw9uxZvPPOO3juuefw0ksv3Xt9
+      b28vVFXFiy++CEVRYBgGDMPAW2+9hZqaGhw+fBiBQAAnTpxALBbD4cOHEQ6HMTMzA4/Hc+9z
+      kgtxdH77q4i/MuWJbUaAqqoqfPLJJ0in0zh+/DgqKysBAKqq4ujRo3A4HBgcHMTExASCwSC6
+      u7vx7rvvwu124+WXX8b09DQ+++wzHDlyBM888wwAYH5+Hs8++ywqKipw9OhRfPfddzhx4gSA
+      bOj6fulEIsSFr5Uppmmaoouwormhafzy+2859y8RQ41ejGz2rfh9tpgCFVsmncGt89d48tsA
+      A7AKUz0jmB3gwtcOGIAV0pJp9PzQLroMyhMGYIVmB6YQHp8TXQblCQOwApl0BrcvsPvbCQOw
+      AjN9E5z72wwDsEx6RsfAlW7RZVCeMQDLFBqdxWT3qOgyKM8YgGXQMzoGLrP72xEDsAzx+SjG
+      O4dFl0EFwAA8hmEY6Pulk7/1tSkG4DGS4TiG2/pEl0EFwgA8Qna//xC7v40xAI+QSWfY/W2O
+      AXiE2MwCwmPc9mBnDMASTNPE8K98oIXdMQBLyKQ0TPdNiC6DCowBWEJodBaRyZDoMqjAGICH
+      ME0TE138xZcMGICHSEUSGL/FAMiAAXiImf4J3u1BEgzAAwzdwFjHkOgyqEgYgAckI3FM946J
+      LoOKhAF4QGQqjAy3PkiDAchhmiam2P2lwgDkMDI67/ggGQYgRyqWQniUz/eSCQOQIzIV4vxf
+      MgzAXZz/y4kBuIvzfzkxAHclwnHO/yXEANw1fWec838JMQDIbn+YvjMuugwSgAEAYBoG0vGU
+      6DJIAAYAgK7piM0siC6DBGAAkP36YzKSEF0GCcAAIHvrQ5ITAwAgMh0WXQIJwgAA/PaXxKQP
+      gKEbiM1yASwrBiCjIzbPEUBWDICuIxHiIlhW0gcgFUvxl2ASkz4AvAQqN+kDoCXToksggaQP
+      QIYBkJr0AdASDIDMpA+AnjFEl0ACSR8ArgHkJnUATNPkGkByUgcApglD5xRIZlIHwDRNZFKa
+      6DJIIMkDAI4AkpM7AIYJjSOA1KQOAEwTBi+DSs0pugCRTACmrosug9bAVIC5Shemaj2rer/U
+      AVAUBQ6PS3QZtEppl4K+7X7MbXCv+jMkDwDgcDhEl0ErZAKYq3Lh9k4/dOfaZvFyB0BV4PRI
+      fQgsJ+lR0bfdj1BlfkZuqf/1FUWBk1MgSzABTNW4MbDNt+aun0vuAKgqA2ABSa+KO9v9CK/P
+      /7+V1AEAANXJNUCpMgFM1rkxuNkH3VWYK/bSB8DBAJSkhC/b9RcqCjtCSx8Al5dToFJiAhjf
+      5MFwo7dgXT8XA+Bb/TVkyq9idf1c0geAawDxit31c0kfAJeXI4BICW/2un4hrvAsh/QBKK+r
+      FF2ClER2/VzSB8DpccEb9PEBGUUU86sY2Cau6+eSPgCqQ4V3nZ8BKAJDyXb90QYvMgK7fi4G
+      wKHCG/SJLsP2ogEHBrf4SqLr52IAnA74K4Oiy7AtXc12/bH60un6uaQPAAAEq9eJLsGWSrXr
+      52IAAAQ2lIsuwVYyDmCs3ouJOk9Jdv1cDACA4MZyqA6Vd4jIg/A6J4Y3e4v629y1YACQ3Rbt
+      9nt4JWgNMg5gpMGHiU0eGA5FdDnLxgAguxD2rQ8wAKu0sM6B/iY/YgHrnU7Wq7gAHE4V/vUB
+      zA9Niy7FUjSXgrEnvBi3WNfPVdorlCJRVBW1u+tFl2EZJoBwuRO3fhPAaIPXsic/wBHgniCv
+      BC2L5lQwVu/B+CZrn/iLGIC7yqqCKN9UhfDYrOhSSpIJYKHcib7tfiT89tlCzgDcpTod8K8v
+      YwAeQnMqGG3IzvVN1fpdPxfXAHepDhWb9m0WXUZJWZzrtx8IYqzea7uTH+AIcJ9ANdcBizSn
+      gtF6L8afsF/Xz8UA5AhUBVG+qRLhsTnRpQhzb67f5EeizD5z/aUwADmy64CAtAGQpevn4hog
+      h6zrABNAqNyJm08GMdZgz7n+UjgCPEC2dYDmVDDSmN25KdOJv4gBeIAs6wATQLjCiTvb/Uj5
+      7D/XXwoD8ACnx4XaXfW2DoDmVDC0xYupGjm7fi6uAR6ibl8jVIf9Do0JYL7CiV9/tw6TdXLN
+      9ZfCEeAhyqqCKH+iyla7QzWXgv5tfsxs5I3AcjEAD+F0u9BwcJstAmACmN3gQl+THxm3/Ua1
+      teIRWcKmfY1wuK3dH9IuBT27y9CzJ8CTfwk8Kktw+TzYuGOT6DJWxQQwvdGNtt+uw2w1pzyP
+      wgAsQXWoqNn5hOgyViztVtC9pwy9u8rY9ZfB2mN8gdXuboDLdw1aIi26lMcyAUzVZh8nxBN/
+      +XikHsHlc2OjBUaBlFtB194y3NnBrr9SPFqPkN0b1Ci6jCWZACZr3Lh+aB3mqzjXXw1OgR6j
+      uqkOwY0ViEyFRJdyn5RbQd92P0/8NeII8BgurxtNR/eILuMedv38YgCWoW5fI8qqxN9A995c
+      fyfn+vnCo7gMbp8H257eLeznGwowUevGDXb9vGMAlqn+wFb4KsqK/nMTXhXde8rQt6MMGrt+
+      3vGILpPb70HDwW1F+3mGAozXedD+ZJBdv4AYgBXYdmR3UR6sHfdnu37/dj+7foHx6K6Au8yL
+      zb/bUbDP11VgpMGDjv3s+sXCAKyAoiho/JvtBdklGg040L0ngKEt7PrFxCO9QmVVQdQ/uTVv
+      n2eowEi9B537AghVWuOpKnbCAKyQqqpoOro3L2uBaMCBjv1BDG1l1xeFR30VgtXl2PHM/lW/
+      P+NQMNzgRfuBICLruBtFJAZglbY8tQPldZUreo8JIBJ0oPM3AQxv8dni/vpWxwCsksvrxt5/
+      +u2yX59xKBhp8KJjP7t+KWEA1mDD1lo0HGp65GsWu37HAXb9UsQArIHqULHj7/YteVk04wBG
+      GrNzfSs+QVEGDMAaBTdWYNffH7jvz/6/6wcxvNnHG1CVMAYgD7b87U6U160HsPjAaHZ9q2AA
+      8sDldWPXPxzMdv39QQxvYde3CgYgTzbuegLuf96LWJBd30oYgDxxqCqe37kbVf7if2eAVo8B
+      yKNyrw//sv8g3A5577dvNQxAnjVWrMc/bt8pugxaJgYgz1RFweGGLdhdvVF0KbQMfwHkH7+g
+      fAhLHAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
