@@ -456,3 +456,24 @@
 2023-Oct-16-18:35:29,Transform Phase is completed
 2023-Oct-16-18:35:29,Loading Phase is completed
 2023-Oct-16-18:35:29,==========ETL Job Ended==========
+2023-Oct-17-10:15:00,==========ETL Job Started==========
+2023-Oct-17-10:15:10,Extracted the cdw_sapp_branch.json file 
+2023-Oct-17-10:15:10,Cleaning of the branch file started
+2023-Oct-17-10:15:10,cleaning of the branch file completed
+2023-Oct-17-10:15:13,Extracted the cdw_sapp_credit.json file 
+2023-Oct-17-10:15:13,Cleaning of credit card file started 
+2023-Oct-17-10:15:13,Cleaning of credit card file completed 
+2023-Oct-17-10:15:14,Extracted the cdw_sapp_custmer file 
+2023-Oct-17-10:15:14,Cleaning of customer info file started 
+2023-Oct-17-10:15:14,Cleaning of customer info file completed 
+2023-Oct-17-10:15:15,Extracted the loan data file 
+2023-Oct-17-10:15:17,Loading of customer branch table started
+2023-Oct-17-10:15:23,Loading of customer branch table completed
+2023-Oct-17-10:15:23,Loading of credit card table started
+2023-Oct-17-10:15:36,Loading of credit card table completed
+2023-Oct-17-10:15:36,Loading of customer info table started
+2023-Oct-17-10:15:38,Loading of customer info table completed
+2023-Oct-17-10:15:48,Extract Phase is completed
+2023-Oct-17-10:15:48,Transform Phase is completed
+2023-Oct-17-10:15:48,Loading Phase is completed
+2023-Oct-17-10:15:48,==========ETL Job Ended==========
