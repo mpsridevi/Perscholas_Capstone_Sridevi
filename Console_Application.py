@@ -74,7 +74,7 @@ def transaction_module_212():
                        .groupby("TRANSACTION_TYPE")\
                        .agg(
                         count("TRANSACTION_TYPE").alias("NUMBER OF TRANSACTION"), 
-                        round(sum("TRANSACTION_VALUE"),2).alias("TOTAL VALUES OF TRANSACTION")
+                        round(sum("TRANSACTION_VALUE"),2).alias("TOTAL VALUE OF TRANSACTION")
                        )
     return output_212df
 
@@ -89,9 +89,9 @@ def transaction_module_213():
                         .filter(col("BRANCH_STATE") == state_code)\
                         .groupby("BRANCH_STATE")\
                         .agg(
-                            count(creditcarddf.BRANCH_CODE).alias("NUMBER OF BRANCHES"),
+                            #count(creditcarddf.BRANCH_CODE).alias("NUMBER OF BRANCHES"),
                             count(creditcarddf.TRANSACTION_VALUE).alias("NUMBER OF TRANSACTIONS"),
-                            round(sum(creditcarddf.TRANSACTION_VALUE),2).alias("TOTAL VALUES OF TRANSACTION")
+                            round(sum(creditcarddf.TRANSACTION_VALUE),2).alias("TOTAL VALUE OF TRANSACTION")
                             )
     return output213_df
 
@@ -275,7 +275,7 @@ def transaction_options():
     transaction_input = int(input(""" \n Please choose one of the options \n
                                   1. Transactions made by customer in a given Zip code\n
                                   2. Display the number and total values of transactions for a given type.\n
-                                  3. Display the total number and total values of transactions for branches in a given state\n"""))
+                                  3. Display the total number and total value of transactions for branches in a given state\n"""))
     return transaction_input
 
 def customer_details_options():
