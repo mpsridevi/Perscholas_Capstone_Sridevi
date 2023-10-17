@@ -1,3 +1,5 @@
+#CREATE DATABASE creditcard_capstone;
+
 #select * from cdw_sapp_branch;
 #select  SSN, CUST_STATE from CDW_SAPP_CUSTOMER where CUST_STATE="NY";
 #select * from CDW_SAPP_CREDIT_CARD
@@ -39,7 +41,7 @@
 FROM CDW_SAPP_CREDIT_CARD
 GROUP BY MONTH
 ORDER BY TOTAL_TRANSACTIONS DESC
-LIMIT 4*/
+LIMIT 3;*/
 
 #SELECT TIMEID, TRANSACTION_VALUE FROM CDW_SAPP_CREDIT_CARD
 
@@ -59,6 +61,9 @@ LIMIT 4*/
 select * from cdw_sapp_branch;
 
 select * from cdw_sapp_customer;
+select CUST_STATE, count(SSN) as Number_of_Customers from cdw_sapp_customer
+group by CUST_STATE
+order by Number_of_Customers;
 
 select * from cdw_sapp_credit_card
 
