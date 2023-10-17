@@ -103,6 +103,9 @@ Every step of Extraction, Transformation and Loading into the database with the 
     with open("logfile.txt","a") as f:
         f.write(timestamp + ',' + message + '\n')
 ```
+The diagram of the creditcard_capstone database is as below.
+![Alt text](SQL_Queries_Visualization/EER_Diagram_DB.jpg)
+
 ### Functional Requirements - Application Front-End
 The front end console application which is a Python script interacts with the customer and collect the inputs from the customer based on the below functional requirements and do various actions on the dataframe and display the results to the cutomer.
 
@@ -204,7 +207,6 @@ To plot which branch processed the highest total dollar value of healthcare tran
 I have created a test case document which contains the Module, Test Scenarios, Test Description, Complexity, Date of Executing and Status. There are some testing which will be enhanced in the Version2.
 
 ![Alt text](Testing/Test_Case_Document.jpg)
-
 
 ## Author:
 Sridevi Melnatami Prasanna (https://github.com/mpsridevi/)
