@@ -136,7 +136,8 @@ The front end console application which is a Python script interacts with the cu
 ## Functional Requirements 3 - Data Analysis and Visualization
 
 __Challenges Faced while building the Visualization:__      
-I first tried all the querying parts in Tableau like joining the tables, sorting the output, limiting the output etc but the Tableau version doesn't have a SQL connector and the visualization was taking long time. I was researching and read some articles and it gave me an idea about the Visualization tools. We have to use the visualization tools only to visualize and make a story between various plots. So then I have done the querying in the MS_SQL and exported the output to Tableau and did the visualization according to the requirements.
+
+I first tried all the querying parts in Tableau like joining the tables, sorting the output, limiting the output etc but the Tableau version doesn't have a SQL connector and the visualization was taking long time. I was researching and read some articles and it gave me an idea about the Visualization tools. From the scholarly articles, it is recommended to have all calculations done in the RDBMS rather than the visualization tools. So then I have done the querying in the MS_SQL and exported the output to Tableau and did the visualization according to the requirements. By doing so it also boosts the performance of Tableau reporting.
 
 All the visualizations are built with Tableau. 
 ![Alt text](Logos/Tableau.png)
