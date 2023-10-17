@@ -104,6 +104,7 @@ Every step of Extraction, Transformation and Loading into the database with the 
         f.write(timestamp + ',' + message + '\n')
 ```
 The diagram of the creditcard_capstone database is as below.
+
 ![Alt text](SQL_Queries_Visualization/EER_Diagram_DB.jpg)
 
 ### Functional Requirements - Application Front-End
