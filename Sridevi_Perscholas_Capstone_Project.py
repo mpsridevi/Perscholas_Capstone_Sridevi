@@ -355,7 +355,7 @@ def transaction_module_213():
                         .filter(col("BRANCH_STATE") == state_code)\
                         .groupby("BRANCH_STATE")\
                         .agg(
-                            count(creditcarddf.BRANCH_CODE).alias("NUMBER OF BRANCHES"),
+                            #count(creditcarddf.BRANCH_CODE).alias("NUMBER OF BRANCHES"),
                             count(creditcarddf.TRANSACTION_VALUE).alias("NUMBER OF TRANSACTIONS"),
                             round(sum(creditcarddf.TRANSACTION_VALUE),2).alias("TOTAL VALUES OF TRANSACTION")
                             )
