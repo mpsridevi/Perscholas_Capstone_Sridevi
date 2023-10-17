@@ -1,7 +1,7 @@
-# Perscholas_Capstone_Sridevi
+# Perscholas_Capstone_Sridevi Repository
  
- # CAP 350 - Data Engineering - Capstone 
-## Presented by Sridevi Melnatami Prasanna
+## Data Engineering - Capstone Project
+### Presented by Sridevi Melnatami Prasanna
 The Capstone project provided me an opportunity to demonstrate the knowledge that I have acquired throughout the Data Engineering course provided by Perscholas powered by TEKSystems.
 
 ![Alt text](Logos/PerScholas_TekSystem.png)
