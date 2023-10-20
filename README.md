@@ -157,6 +157,8 @@ Plot to show which state has a high number of customers.
 
 ![Alt text](Visualization/Req_3.2_Plot_Customers_Per_State.png)
 
+![Alt text](Visualization/Req_3.2_Plot_Customers_Per_State_Street_View.png)
+
 ### Functional Requirements 3.3
 
 Plot to show the sum of all transactions for the top 10 customers, and which customer has the highest transaction amount.
