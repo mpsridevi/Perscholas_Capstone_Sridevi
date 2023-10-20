@@ -259,6 +259,7 @@ print(Fore.RED + Back.WHITE + "                        Showing all the Visualiza
 
 Req_3_1_Plot = Image.open('Req_3.1_Plot_Highest_Transaction_Count.png')
 Req_3_2_Plot = Image.open('Req_3.2_Plot_Customers_Per_State.png')
+Req_3_2_Plot_Version2 = Image.open('Req_3.2_Plot_Customers_Per_State_Street_View.png')
 Req_3_3_Plot = Image.open('Req_3.3_Plot__Top_Ten_Customers_High_Transaction_Amount.png')
 
 Req_5_1_Plot = Image.open('Req_5.1_Plot_Self_Employed_Application_Status.png')
@@ -270,6 +271,9 @@ Req_3_1_Plot.show()
 time.sleep(10)
 
 Req_3_2_Plot.show()
+time.sleep(10)
+
+Req_3_2_Plot_Version2.show()
 time.sleep(10)
 
 Req_3_3_Plot.show()
@@ -494,10 +498,12 @@ def customer_details_module_223():
             .select("Date", "TRANSACTION_TYPE", "TRANSACTION_VALUE", "TRANSACTION_ID")
     prev_month_balance = output221_df_prev.agg(round(sum(creditcarddf.TRANSACTION_VALUE),2).alias("PREVIOUS MONTH BALANCE"))
     prev_month_balance.show()
-    print("Purchases and Adjustments Balance                            ")
     output221_df_curr = creditcarddf.filter((col("CUST_CC_NO") == credit_card_number) & (creditcarddf.TIMEID.like(curr_month)))\
             .withColumn("Date", to_date(col("TIMEID"), "yyyyMMdd"))\
             .select("Date", "TRANSACTION_TYPE", "TRANSACTION_VALUE", "TRANSACTION_ID")
+    print(f"Individual Breakup Summary for the month {months_list[billmonth]} {billyear}                         \n")
+    output221_df_curr.show(10)
+    print("Purchases and Adjustments Balance                            \n")
     Purchases_Adjustments = output221_df_curr.agg(round(sum(creditcarddf.TRANSACTION_VALUE),2).alias("PURCHASES AND ADJUSTMENTS"))
     Purchases_Adjustments.show()
     print("Minimum Payment Due:                           $0\n")
