@@ -519,3 +519,45 @@
 2023-Oct-17-18:37:29,Transform Phase is completed
 2023-Oct-17-18:37:29,Loading Phase is completed
 2023-Oct-17-18:37:29,==========ETL Job Ended==========
+2023-Oct-18-08:23:44,==========ETL Job Started==========
+2023-Oct-18-08:23:52,Extracted the cdw_sapp_branch.json file 
+2023-Oct-18-08:23:52,Cleaning of the branch file started
+2023-Oct-18-08:23:52,cleaning of the branch file completed
+2023-Oct-18-08:23:54,Extracted the cdw_sapp_credit.json file 
+2023-Oct-18-08:23:54,Cleaning of credit card file started 
+2023-Oct-18-08:23:54,Cleaning of credit card file completed 
+2023-Oct-18-08:23:54,Extracted the cdw_sapp_custmer file 
+2023-Oct-18-08:23:54,Cleaning of customer info file started 
+2023-Oct-18-08:23:55,Cleaning of customer info file completed 
+2023-Oct-18-08:23:56,Extracted the loan data file 
+2023-Oct-18-08:23:57,Loading of customer branch table started
+2023-Oct-18-08:23:59,Loading of customer branch table completed
+2023-Oct-18-08:23:59,Loading of credit card table started
+2023-Oct-18-08:24:07,Loading of credit card table completed
+2023-Oct-18-08:24:07,Loading of customer info table started
+2023-Oct-18-08:24:08,Loading of customer info table completed
+2023-Oct-18-08:24:18,Extract Phase is completed
+2023-Oct-18-08:24:18,Transform Phase is completed
+2023-Oct-18-08:24:18,Loading Phase is completed
+2023-Oct-18-08:24:18,==========ETL Job Ended==========
+2023-Oct-18-10:30:17,==========ETL Job Started==========
+2023-Oct-18-10:30:33,Extracted the cdw_sapp_branch.json file 
+2023-Oct-18-10:30:33,Cleaning of the branch file started
+2023-Oct-18-10:30:33,cleaning of the branch file completed
+2023-Oct-18-10:30:38,Extracted the cdw_sapp_credit.json file 
+2023-Oct-18-10:30:38,Cleaning of credit card file started 
+2023-Oct-18-10:30:38,Cleaning of credit card file completed 
+2023-Oct-18-10:30:40,Extracted the cdw_sapp_custmer file 
+2023-Oct-18-10:30:40,Cleaning of customer info file started 
+2023-Oct-18-10:30:41,Cleaning of customer info file completed 
+2023-Oct-18-10:30:42,Extracted the loan data file 
+2023-Oct-18-10:30:46,Loading of customer branch table started
+2023-Oct-18-10:30:51,Loading of customer branch table completed
+2023-Oct-18-10:30:51,Loading of credit card table started
+2023-Oct-18-10:31:10,Loading of credit card table completed
+2023-Oct-18-10:31:10,Loading of customer info table started
+2023-Oct-18-10:31:12,Loading of customer info table completed
+2023-Oct-18-10:31:30,Extract Phase is completed
+2023-Oct-18-10:31:30,Transform Phase is completed
+2023-Oct-18-10:31:30,Loading Phase is completed
+2023-Oct-18-10:31:30,==========ETL Job Ended==========
